@@ -207,9 +207,21 @@
                             </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jxT-5N-o4r" userLabel="Yellow">
                                 <rect key="frame" x="1" y="44" width="412" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWe-4m-sik">
+                                        <rect key="frame" x="0.0" y="8" width="412" height="84"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.33333333329999998" green="0.33333333329999998" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
+                                    <constraint firstItem="YWe-4m-sik" firstAttribute="centerX" secondItem="jxT-5N-o4r" secondAttribute="centerX" id="6Fc-2P-GhB"/>
+                                    <constraint firstItem="YWe-4m-sik" firstAttribute="top" secondItem="jxT-5N-o4r" secondAttribute="top" constant="8" id="9Ei-oM-BNb"/>
                                     <constraint firstAttribute="height" constant="100" id="ViY-Nr-NEC"/>
+                                    <constraint firstAttribute="trailing" secondItem="YWe-4m-sik" secondAttribute="trailing" id="f7p-rs-8pC"/>
+                                    <constraint firstAttribute="bottom" secondItem="YWe-4m-sik" secondAttribute="bottom" constant="8" id="vfc-jn-Bb5"/>
                                 </constraints>
                             </view>
                         </subviews>
